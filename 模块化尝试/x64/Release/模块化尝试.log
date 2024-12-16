@@ -1,0 +1,187 @@
+﻿  function.cpp
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\function.cpp(230,24): error C2440: “初始化”: 无法从“const char [5]”转换为“TCHAR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\function.cpp(230,24): message : 没有使该转换得以执行的上下文
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\function.cpp(231,24): error C2440: “初始化”: 无法从“const char [5]”转换为“TCHAR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\function.cpp(231,24): message : 没有使该转换得以执行的上下文
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\function.cpp(261,14): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [9]”转换为“LPCWSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\function.cpp(261,30): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1): message : 参见“MessageBoxW”的声明
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\function.cpp(261,14): message : 尝试匹配参数列表“(HWND, const char [9], const char [9], long)”时
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\function.cpp(264,3): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+D:\常用软件\visual studio\VC\Auxiliary\VS\include\easyx.h(259,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\function.cpp(264,3): message : “void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [24]”转换为“LPCTSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\function.cpp(264,26): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\常用软件\visual studio\VC\Auxiliary\VS\include\easyx.h(258,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\function.cpp(264,3): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [24]”转换为“LPCTSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\function.cpp(264,26): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\function.cpp(264,3): message : 尝试匹配参数列表“(IMAGE *, const char [24], int, int, bool)”时
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\function.cpp(269,3): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+D:\常用软件\visual studio\VC\Auxiliary\VS\include\easyx.h(259,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\function.cpp(269,3): message : “void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [21]”转换为“LPCTSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\function.cpp(269,24): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\常用软件\visual studio\VC\Auxiliary\VS\include\easyx.h(258,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\function.cpp(269,3): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [21]”转换为“LPCTSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\function.cpp(269,24): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\function.cpp(269,3): message : 尝试匹配参数列表“(IMAGE *, const char [21], int, int)”时
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\function.cpp(282,16): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [17]”转换为“LPCWSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\function.cpp(282,33): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1): message : 参见“MessageBoxW”的声明
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\function.cpp(282,16): message : 尝试匹配参数列表“(HWND, const char [17], const char [5], long)”时
+  main.cpp
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\main.cpp(10,25): error C2440: “初始化”: 无法从“const char [9]”转换为“TCHAR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\main.cpp(10,25): message : 没有使该转换得以执行的上下文
+  mode.cpp
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(9,2): warning C4002: 类函数宏的调用“MEMSET”参数过多
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(13,24): error C2440: “初始化”: 无法从“const char [5]”转换为“TCHAR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(13,24): message : 没有使该转换得以执行的上下文
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(14,24): error C2440: “初始化”: 无法从“const char [5]”转换为“TCHAR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(14,24): message : 没有使该转换得以执行的上下文
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(15,24): error C2440: “初始化”: 无法从“const char [9]”转换为“TCHAR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(15,24): message : 没有使该转换得以执行的上下文
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(16,23): error C2440: “初始化”: 无法从“const char [9]”转换为“TCHAR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(16,23): message : 没有使该转换得以执行的上下文
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(17,24): error C2440: “初始化”: 无法从“const char [9]”转换为“TCHAR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(17,24): message : 没有使该转换得以执行的上下文
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(18,24): error C2440: “初始化”: 无法从“const char [9]”转换为“TCHAR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(18,24): message : 没有使该转换得以执行的上下文
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(35,2): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [16]”转换为“LPCWSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(35,16): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(35,2): message : 尝试匹配参数列表“(const char [16], int, int, int)”时
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(36,2): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [23]”转换为“LPCWSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(36,16): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(36,2): message : 尝试匹配参数列表“(const char [23], int, int, int)”时
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(90,41): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [17]”转换为“LPCWSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(90,55): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(90,41): message : 尝试匹配参数列表“(const char [17], int, int, int)”时
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(94,41): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [18]”转换为“LPCWSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(94,55): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(94,41): message : 尝试匹配参数列表“(const char [18], int, int, int)”时
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(100,2): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [17]”转换为“LPCWSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(100,16): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\mode.cpp(100,2): message : 尝试匹配参数列表“(const char [17], int, int, int)”时
+  print.cpp
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(31,2): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [18]”转换为“LPCWSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(31,16): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(31,2): message : 尝试匹配参数列表“(const char [18], int, int, int)”时
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(32,2): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [18]”转换为“LPCWSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(32,16): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(32,2): message : 尝试匹配参数列表“(const char [18], int, int, int)”时
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(41,2): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [19]”转换为“LPCWSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(41,16): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(41,2): message : 尝试匹配参数列表“(const char [19], int, int, int)”时
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(63,2): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+D:\常用软件\visual studio\VC\Auxiliary\VS\include\easyx.h(259,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(63,2): message : “void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [24]”转换为“LPCTSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(63,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\常用软件\visual studio\VC\Auxiliary\VS\include\easyx.h(258,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(63,2): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [24]”转换为“LPCTSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(63,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(63,2): message : 尝试匹配参数列表“(IMAGE *, const char [24], int, int, bool)”时
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(67,24): error C2440: “初始化”: 无法从“const char [5]”转换为“TCHAR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(67,24): message : 没有使该转换得以执行的上下文
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(68,25): error C2440: “初始化”: 无法从“const char [5]”转换为“TCHAR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(68,25): message : 没有使该转换得以执行的上下文
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(93,2): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+D:\常用软件\visual studio\VC\Auxiliary\VS\include\easyx.h(258,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(93,2): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [24]”转换为“LPCTSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(93,24): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(93,2): message : 尝试匹配参数列表“(IMAGE *, const char [24])”时
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(102,25): error C2440: “初始化”: 无法从“const char [9]”转换为“TCHAR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(102,25): message : 没有使该转换得以执行的上下文
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(118,2): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+D:\常用软件\visual studio\VC\Auxiliary\VS\include\easyx.h(258,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(118,2): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [24]”转换为“LPCTSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(118,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(118,2): message : 尝试匹配参数列表“(IMAGE *, const char [24])”时
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(120,2): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+D:\常用软件\visual studio\VC\Auxiliary\VS\include\easyx.h(259,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(120,2): message : “void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [21]”转换为“LPCTSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(120,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\常用软件\visual studio\VC\Auxiliary\VS\include\easyx.h(258,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(120,2): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [21]”转换为“LPCTSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(120,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(120,2): message : 尝试匹配参数列表“(IMAGE *, const char [21], int, int)”时
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(126,25): error C2440: “初始化”: 无法从“const char [9]”转换为“TCHAR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(126,25): message : 没有使该转换得以执行的上下文
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(127,25): error C2440: “初始化”: 无法从“const char [15]”转换为“TCHAR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(127,25): message : 没有使该转换得以执行的上下文
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(128,25): error C2440: “初始化”: 无法从“const char [15]”转换为“TCHAR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(128,25): message : 没有使该转换得以执行的上下文
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(129,25): error C2440: “初始化”: 无法从“const char [5]”转换为“TCHAR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(129,25): message : 没有使该转换得以执行的上下文
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(130,24): error C2440: “初始化”: 无法从“const char [9]”转换为“TCHAR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(130,24): message : 没有使该转换得以执行的上下文
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(150,17): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [11]”转换为“LPCWSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(150,33): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1): message : 参见“MessageBoxW”的声明
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(150,17): message : 尝试匹配参数列表“(HWND, const char [11], const char [5], long)”时
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(162,7): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+D:\常用软件\visual studio\VC\Auxiliary\VS\include\easyx.h(259,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(162,7): message : “void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 2 从“char [50]”转换为“LPCTSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(162,30): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\常用软件\visual studio\VC\Auxiliary\VS\include\easyx.h(258,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(162,7): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“char [50]”转换为“LPCTSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(162,30): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(162,7): message : 尝试匹配参数列表“(IMAGE *, char [50], int, int)”时
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(164,6): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [28]”转换为“LPCWSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(164,20): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(164,6): message : 尝试匹配参数列表“(const char [28], int, int, int)”时
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(165,6): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [28]”转换为“LPCWSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(165,20): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(165,6): message : 尝试匹配参数列表“(const char [28], int, int, int)”时
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(175,32): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(196,3): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+D:\常用软件\visual studio\VC\Auxiliary\VS\include\easyx.h(259,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(196,3): message : “void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 2 从“char [50]”转换为“LPCTSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(196,24): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\常用软件\visual studio\VC\Auxiliary\VS\include\easyx.h(258,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(196,3): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“char [50]”转换为“LPCTSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(196,24): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(196,3): message : 尝试匹配参数列表“(IMAGE *, char [50], int, int)”时
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(202,2): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [17]”转换为“LPCWSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(202,16): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(202,2): message : 尝试匹配参数列表“(const char [17], int, int, int)”时
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(204,2): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+D:\常用软件\visual studio\VC\Auxiliary\VS\include\easyx.h(259,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(204,2): message : “void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [22]”转换为“LPCTSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(204,23): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\常用软件\visual studio\VC\Auxiliary\VS\include\easyx.h(258,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(204,2): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [22]”转换为“LPCTSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(204,23): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(204,2): message : 尝试匹配参数列表“(IMAGE *, const char [22], int, int)”时
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(267,3): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+D:\常用软件\visual studio\VC\Auxiliary\VS\include\easyx.h(258,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(267,3): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [24]”转换为“LPCTSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(267,26): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(267,3): message : 尝试匹配参数列表“(IMAGE *, const char [24])”时
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(269,3): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+D:\常用软件\visual studio\VC\Auxiliary\VS\include\easyx.h(259,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(269,3): message : “void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [21]”转换为“LPCTSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(269,23): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\常用软件\visual studio\VC\Auxiliary\VS\include\easyx.h(258,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(269,3): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [21]”转换为“LPCTSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(269,23): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(269,3): message : 尝试匹配参数列表“(IMAGE *, const char [21], int, int)”时
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(271,25): error C2440: “初始化”: 无法从“const char [5]”转换为“TCHAR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(271,25): message : 没有使该转换得以执行的上下文
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(272,25): error C2440: “初始化”: 无法从“const char [9]”转换为“TCHAR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(272,25): message : 没有使该转换得以执行的上下文
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(291,18): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [13]”转换为“LPCWSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(291,34): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1): message : 参见“MessageBoxW”的声明
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(291,18): message : 尝试匹配参数列表“(HWND, const char [13], const char [11], long)”时
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(300,18): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [13]”转换为“LPCWSTR”
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(300,34): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1): message : 参见“MessageBoxW”的声明
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\print.cpp(300,18): message : 尝试匹配参数列表“(HWND, const char [13], const char [11], long)”时

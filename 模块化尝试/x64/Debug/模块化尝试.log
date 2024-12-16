@@ -1,0 +1,4 @@
+﻿D:\常用软件\visual studio\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(模块化尝试.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  main.cpp
+D:\visual studio project\五子棋 大一上大作业\模块化尝试\main.cpp(11,7): warning C4101: “name”: 未引用的局部变量
+  模块化尝试.vcxproj -> D:\visual studio project\五子棋 大一上大作业\x64\Debug\五子棋 大作业.exe

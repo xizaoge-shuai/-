@@ -1,0 +1,7 @@
+﻿  五子棋.cpp
+C:\Users\刘成祥瑞\Desktop\cpp\五子棋\五子棋.cpp(272,6): warning C4551: 缺少参数列表的函数调用
+C:\Users\刘成祥瑞\Desktop\cpp\五子棋\五子棋.cpp(340,7): warning C4551: 缺少参数列表的函数调用
+C:\Users\刘成祥瑞\Desktop\cpp\五子棋\五子棋.cpp(381,5): warning C4551: 缺少参数列表的函数调用
+C:\Users\刘成祥瑞\Desktop\cpp\五子棋\五子棋.cpp(386,5): warning C4551: 缺少参数列表的函数调用
+C:\Users\刘成祥瑞\Desktop\cpp\五子棋\五子棋.cpp(254): warning C4715: “DrawPiece”: 不是所有的控件路径都返回值
+  五子棋.vcxproj -> C:\Users\刘成祥瑞\Desktop\cpp\五子棋\x64\Debug\五子棋.exe
